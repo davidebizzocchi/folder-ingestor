@@ -9,8 +9,6 @@ def store_file_from_dir(tool_input, cat: StrayCat):
     plugin_path = Path(cat.mad_hatter.get_plugin().path)
     settings = cat.mad_hatter.get_plugin().load_settings()
 
-    print(settings)
-
     dir_path: Path = plugin_path / settings["directory"]
     file_stored_names = []
 
