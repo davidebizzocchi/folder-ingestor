@@ -1,0 +1,4 @@
+{
+    "name": "Ingestor",
+    "description": "Ingest all file in the directory as plain text"
+}
