@@ -28,7 +28,7 @@ def store_file_from_dir(tool_input, cat: StrayCat):
         filename = "myfiles" / file.relative_to(dir_path)
 
         for point in cat.memory.vectors.declarative.get_all_points():
-            if point.payload["metadata"]["source"] == filename:
+            if point.payload["metadata"]["source"] == str(filename):
                 # cat.send_notification(f"{f.name} already exists")
                 return
 
