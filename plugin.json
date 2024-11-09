@@ -4,6 +4,6 @@
     "description": "Ingest all file in the directory as plain text"
     "author_name": "Davide Bizzocchi",
     "author_url": "https://github.com/davidebizzocchi",
-    "plugin_url": "https://github.com/davidebizzocchi/ingestor",
+    "plugin_url": "https://github.com/davidebizzocchi/folder-ingestor",
     "tags": "cat, file_ingestion" 
 }
