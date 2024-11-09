@@ -1,5 +1,5 @@
 {
-    "name": "Ingestor",
+    "name": "Folder Ingestor",
     "version": "0.0.1",
     "description": "Ingest all file in the directory as plain text"
     "author_name": "Davide Bizzocchi",
