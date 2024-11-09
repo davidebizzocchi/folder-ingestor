@@ -1,8 +1,12 @@
 # Ingestor
 
-Plugin for Cheschire Cat "Ingestor"
+Plugin per [Cheschire Cat](https://cheshire-cat-ai.github.io/), "Ingestor" permette di :
 
-chiede al chatbot di caricare i documenti "carica i documenti"
-Il "source" dei documenti è il loro path all'interno della custom directory (default "myfiles")
+- caricare direttamete dei file posti in una cartella specifica
+- carica file con qualsiasi estensione ( es: .py, .tf, ... )
+- caricamento multiplo di files
 
-Attenzione alla Procedural Memory Threshold
+Chiede al chatbot di caricare i documenti "carica i documenti"
+La cartella "source" dei documenti è il path all'interno della custom directory (default "myfiles"), si configura in settings.json
+
+>Attenzione alla Procedural Memory Threshold
